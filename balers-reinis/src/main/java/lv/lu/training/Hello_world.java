@@ -1,4 +1,6 @@
 package lv.lu.training;
+    import java.util.Random;
+
 
 public class Hello_world {
     public static void main(String[] args) {
