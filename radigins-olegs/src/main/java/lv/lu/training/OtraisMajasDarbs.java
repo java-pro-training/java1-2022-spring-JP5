@@ -1,6 +1,6 @@
 package lv.lu.training;
 
-public class OtraisMajasDarbs {
+public class MajasDarbs {
     public static void main(String[] args) {
         String part1 = "Hello";
         String part2 = "World";
