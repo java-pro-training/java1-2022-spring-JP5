@@ -1,6 +1,6 @@
 package lv.lu.training;
 
-public class Taisnstūris {
+public class Taisnsturis {
     public static void main(String[] args) {
         int side1 = 10;
         int side2 = 15;
