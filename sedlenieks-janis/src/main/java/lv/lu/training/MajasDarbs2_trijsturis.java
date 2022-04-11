@@ -5,7 +5,7 @@ public class MajasDarbs2_trijsturis{
         int base = 10;
         int height = 20;
         int result = (base * height)/2;
-        System.out.printf("Trijstura laikums ir " +result);
+        System.out.printf("Trijstura laikums : " +result);
 
     }
 }
