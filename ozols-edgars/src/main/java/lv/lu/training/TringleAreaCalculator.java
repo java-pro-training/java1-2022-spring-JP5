@@ -2,6 +2,7 @@ package lv.lu.training;
 
 public class TringleAreaCalculator {
     public static void main(String[] args) {
+
         int base = 10;
         int heigt = 20;
 
