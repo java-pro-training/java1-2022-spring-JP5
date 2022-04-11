@@ -8,6 +8,6 @@ public class TringleAreaCalculator {
 
         int result = (base * heigt) /2;
 
-        System.out.print(result);
+        System.out.print("Trijstura laukums:" + result);
     }
 }

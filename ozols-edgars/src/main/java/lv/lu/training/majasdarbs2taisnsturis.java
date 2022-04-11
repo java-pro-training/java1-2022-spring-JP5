@@ -2,7 +2,6 @@ package lv.lu.training;
 
 public class majasdarbs2taisnsturis {
     public static void main(String[] args) {
-
         int side1 = 10;
         int side2 = 15;
         int side3 = 14;
