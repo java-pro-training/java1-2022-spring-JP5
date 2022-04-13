@@ -7,4 +7,5 @@ public class MajasDarbs1 {
         String rezultats = pirmaisVards + " " + otraisVards;
         System.out.println(rezultats);
     }
-}
+    }
+
