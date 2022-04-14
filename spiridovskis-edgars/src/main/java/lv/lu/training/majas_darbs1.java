@@ -7,5 +7,6 @@ public class majas_darbs1 {
         String part2 = "World";
         String result = part1 + " " + part2;
         System.out.println(result);
+
     }
 }
