@@ -7,7 +7,7 @@ public class RandomNumberAdder {
         Random randomNumberGenerator = new Random();
         randomNumberGenerator.nextInt();
 
-        int Random1 = randomNumberGenerator.nextInt(10);
+        int Random1 = randomNumberGenerator.nextInt(5);
         int Random2 = randomNumberGenerator.nextInt(10);
         int Random3 = randomNumberGenerator.nextInt(10);
         int Result = Random1;

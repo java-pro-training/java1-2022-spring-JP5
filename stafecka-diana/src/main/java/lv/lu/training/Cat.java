@@ -6,6 +6,7 @@ public class Cat {
     private String species;
     private int age;
     private int weight;
+    private int gender;
 
     public Cat(String color, String name, int weight, String species, int age) {
         this.color = color;
