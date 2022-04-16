@@ -18,7 +18,7 @@ public class Cat {
     public void setColor(String color) {
         this.color = color;
     }
-    public String geName() {
+    public String getName() {
         return name;
     }
     public void setName(String name) {
