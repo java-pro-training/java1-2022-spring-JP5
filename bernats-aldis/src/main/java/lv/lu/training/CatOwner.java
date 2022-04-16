@@ -5,6 +5,7 @@ public class CatOwner {
         Cat myCat = new Cat("black", "toms", 7);
         System.out.println("My cat's color - " + myCat.getColor());
         System.out.println("My cat's weight - " + myCat.getWeight());
+        System.out.println("My cat's name - " + myCat.getName());
 
     }
 }
