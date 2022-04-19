@@ -55,6 +55,5 @@ public class Cat {
 
     public void setWeight(int weight) {
         this.weight = weight;
-
     }
 }
