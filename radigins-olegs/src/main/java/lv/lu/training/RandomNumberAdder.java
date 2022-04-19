@@ -10,5 +10,6 @@ public class RandomNumberAdder {
         System.out.println("randomNumber1 " + randomNumber1);
         System.out.println("randomNumber2 " + randomNumber2);
         System.out.println("randomNumber3 " + randomNumber3);
+
     }
 }
