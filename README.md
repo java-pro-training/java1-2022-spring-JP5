@@ -1,1 +1,1 @@
-# java1-2022-spring-JP5
+# java1-2022-sMapring-JP5

@@ -2,13 +2,12 @@ package lv.lu.training;
 
 import java.util.Random;
 
-public class HelloWorld {
+public class HelloWorld
+{
     public static void main(String[] args) {
-
-        Random generator = new Random();
-        int randomNumber = generator.nextInt(101);
+        Random randomGenerator = new Random();
+        int randomNumber = randomGenerator.nextInt(305);
         System.out.println(randomNumber);
 
     }
-
 }
