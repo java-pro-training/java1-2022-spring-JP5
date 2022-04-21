@@ -11,5 +11,6 @@ public class RandomNumberAdder {
         System.out.println("randomNumber2 " + randomNumber2);
         System.out.println("randomNumber3 " + randomNumber3);
 
+        // O.L. Darbs nepilnīgi izpildīts, lūgums apskatīt uzdevuma nosacījumus līdz galam
     }
 }

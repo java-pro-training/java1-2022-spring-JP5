@@ -55,4 +55,7 @@ public class Cat {
     public void setWeight(int weight) {
         this.weight = weight;
     }
+
+    // O.L. Ļoti labi, vienīgi uzdevuma nosacījumos bija definēts, ka konstruktoram ir jābūt ar 3 argumentiem.
+    // Un tad, kad objekts izveidots, tad izsaukt settter metodes species un age mainīgajiem
 }

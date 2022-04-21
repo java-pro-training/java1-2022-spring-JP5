@@ -15,5 +15,8 @@ public class RandomNumberAdder {
         thirdRandomNumber =  randomNumberGenerator.nextInt();
         System.out.println(firstRandomNumber + secondRandomNumber + thirdRandomNumber);
 
+        // O.L. Darbi ļoti labi uzrakstīti. Vienīgi mazs komentārs par šo - nosacījums bija, ka visu
+        // trīs mainīgo vērtības tiek piešķirtas no jauna izveidotam lokālajam mainīgajam,
+        // tad šeit būtu jāizveido jauns mainīgais, piemēram int result
     }
 }

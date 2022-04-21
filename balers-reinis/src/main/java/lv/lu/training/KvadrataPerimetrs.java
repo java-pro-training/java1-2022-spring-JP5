@@ -14,5 +14,6 @@ public class KvadrataPerimetrs {
 
         System.out.println("perimetrs: " + result);
 
+        //O.L. Nodarbības laikā mēs šo skatījāmies, izskatās, ka ir neliela loģikas kļūda 11 rindiņā.
     }
 }

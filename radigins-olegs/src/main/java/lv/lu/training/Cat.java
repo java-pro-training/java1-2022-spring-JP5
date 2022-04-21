@@ -57,4 +57,7 @@ public class Cat {
         this.weight = weight;
 
     }
+
+    // O.L. Ļoti labi, vienīgi uzdevuma nosacījumos bija definēts, ka konstruktoram ir jābūt ar 3 argumentiem.
+    // Un tad, kad objekts izveidots, tad izsaukt settter metodes species un age mainīgajiem
 }

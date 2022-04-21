@@ -17,6 +17,7 @@ public class RandomNumberAdder {
 
 
 
-
+        // O.L. Mainīgo nosaukumus vēlams rakstīt ar mazo sākuma burtu - random1, random2, random3 un result
+        // Tāpat arī visus mainīgos var saskaitīt vienā rindiņā "int result = random1 + random2 + random3"
     }
 }
