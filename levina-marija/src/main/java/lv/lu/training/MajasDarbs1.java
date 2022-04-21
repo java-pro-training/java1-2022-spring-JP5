@@ -6,6 +6,7 @@ public class MajasDarbs1 {
         String otraisVards = "World";
         String rezultats = pirmaisVards + " " + otraisVards;
         System.out.println(rezultats);
+
     }
     }
 
