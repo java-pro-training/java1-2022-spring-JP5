@@ -7,7 +7,6 @@ public class MajasDarbs1 {
         String rezultats = pirmaisVards + " " + otraisVards;
         System.out.println(rezultats);
 
-        // O.L. Labi, vienīgi trūkst 2. nodarbības 2. mājas darbs par trijstūra laukumu
     }
     }
 

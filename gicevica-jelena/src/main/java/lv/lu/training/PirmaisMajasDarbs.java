@@ -6,6 +6,6 @@ public class PirmaisMajasDarbs {
         String part2 = "World";
         String result = part1 + " " + part2;
         System.out.println(result);
-        // O.L. Labi, darbs ieskaitīts
+
     }
 }

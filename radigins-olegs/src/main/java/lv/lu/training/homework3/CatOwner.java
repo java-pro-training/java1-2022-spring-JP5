@@ -1,12 +1,11 @@
-package lv.lu.training;
+package lv.lu.training.homework3;
 
 public class CatOwner {
     public static void main(String[] args) {
-        Cat myCat = new Cat("black", "Tom", 5);
-        myCat.setSpecies("sphynx");
-        myCat.setAge(5);
 
-        System.out.println("My cat`s color - " + myCat.getColor());
+        Cat myCat = new Cat("blue", "Deniss", "British", 6, 20);
+
+        System.out.println("My cat's color - " + myCat.getColor());
         System.out.println("name - " + myCat.getName());
         System.out.println("species - " + myCat.getSpecies());
         System.out.println("age - " + myCat.getAge());
