@@ -6,14 +6,11 @@ public class Cat {
     private String species;
     private int age;
     private int weight;
-    private int gender;
 
-    public Cat(String color, String name, int weight, String species, int age) {
+    public Cat(String color, String name, int weight) {
         this.color = color;
         this.name = name;
         this.weight = weight;
-        this.age = age;
-        this.species = species;
     }
 
     public String getColor() {
@@ -55,7 +52,4 @@ public class Cat {
     public void setWeight(int weight) {
         this.weight = weight;
     }
-
-    // O.L. Ļoti labi, vienīgi uzdevuma nosacījumos bija definēts, ka konstruktoram ir jābūt ar 3 argumentiem.
-    // Un tad, kad objekts izveidots, tad izsaukt settter metodes species un age mainīgajiem
 }

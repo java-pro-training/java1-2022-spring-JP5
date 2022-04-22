@@ -9,5 +9,7 @@ public class randoms {
                 int randomNumber = generator.nextInt(101);
         System.out.println(randomNumber
         );
+        // O.L. Pēc klases nosaukuma ir grūti saprast, bet ja šis ir domāts kā 3. nodarbības 2. mājas darbs,
+        // tad darbs pašlaik ir nepilnīgi izpildīts
     }
 }

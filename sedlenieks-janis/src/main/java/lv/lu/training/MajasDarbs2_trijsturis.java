@@ -7,5 +7,6 @@ public class MajasDarbs2_trijsturis{
         int result = (base * height)/2;
         System.out.printf("Trijstura laikums : " +result);
 
+        // O.L. Vēlams izmantot "System.out.println"
     }
 }

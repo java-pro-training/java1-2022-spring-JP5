@@ -1,19 +1,19 @@
 package lv.lu.training;
 
 public class Cat {
+
     private String color;
     private String name;
     private String species;
     private int age;
     private int weight;
-    private int gender;
 
-    public Cat(String color, String name, int weight, String species, int age) {
+    public Cat(String color, String name, String species, int weight, int age) {
         this.color = color;
         this.name = name;
+        this.species = species;
         this.weight = weight;
         this.age = age;
-        this.species = species;
     }
 
     public String getColor() {

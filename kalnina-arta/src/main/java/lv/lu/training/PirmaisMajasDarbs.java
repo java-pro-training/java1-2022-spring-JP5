@@ -14,5 +14,8 @@ public class PirmaisMajasDarbs {
         result += Side3;
         result += Side4;
         System.out.println("piemers: " + result);
+
+        //O.L. Ir labi, Mazs komentārs -
+        // Mainīgo nosaukumus vēlams rakstīt ar mazo sākuma burtu - side1, side2, side3 un side4.
     }
 }
