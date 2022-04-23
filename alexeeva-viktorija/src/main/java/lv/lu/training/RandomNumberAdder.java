@@ -6,14 +6,12 @@ public class RandomNumberAdder {
     public static void main(String[] args) {
         Random randomNumberGenerator = new Random();
 
-        int Random1 = randomNumberGenerator.nextInt(5);
-        int Random2 = randomNumberGenerator.nextInt(10);
-        int Random3 = randomNumberGenerator.nextInt(15);
-        int Result = Random1;
-        Result += Random2;
-        Result += Random3;
+        int random1 = randomNumberGenerator.nextInt(5);
+        int random2 = randomNumberGenerator.nextInt(10);
+        int random3 = randomNumberGenerator.nextInt(15);
+        int result = random1 + random2 + random3;
 
-        System.out.println("Results = " + Result);
+        System.out.println("Results = " + result);
 
 
 
