@@ -4,7 +4,7 @@ public class CatOwner {
     public static void main(String[] args) {
        Cat myCat = new Cat("black","Tom",5);
 
-        myCat.setAge(9);
+        myCat.setAge(8);
         myCat.setSpecies("ShortHair");
 
         System.out.println("My cat's color - " + myCat.getColor());
