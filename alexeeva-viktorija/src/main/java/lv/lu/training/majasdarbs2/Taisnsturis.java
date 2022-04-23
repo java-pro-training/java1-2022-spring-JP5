@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.majasdarbs2;
 
 public class Taisnsturis {
     public static void main(String[] args) {

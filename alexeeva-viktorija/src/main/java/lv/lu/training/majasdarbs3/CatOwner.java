@@ -1,4 +1,6 @@
-package lv.lu.training;
+package lv.lu.training.majasdarbs3;
+
+import lv.lu.training.majasdarbs3.Cat;
 
 public class CatOwner {
     public static void main(String[] args) {
