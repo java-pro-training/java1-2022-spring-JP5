@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.majasdarbs3;
 
 public class Cat {
     private String color;

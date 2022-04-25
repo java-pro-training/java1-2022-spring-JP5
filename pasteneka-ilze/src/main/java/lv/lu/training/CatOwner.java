@@ -18,6 +18,8 @@ public class CatOwner {
         System.out.println("Age -" + myOtherCat.getAge());
         System.out.println("Weight -" + myOtherCat.getWeight());
 
+        //O.L. Labs risinājums, nav gluži pēc uzdevuma nosacījumiem, bet divu konstruktoru izveide parāda to, ka
+        // viela labi saprasta.
     }
 
 }
