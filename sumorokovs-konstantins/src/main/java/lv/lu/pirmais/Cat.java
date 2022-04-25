@@ -28,15 +28,17 @@ private int weight = 120;
         return species;
     }
     public void setSpecies(){
-        this.species = Null;
+        this.species = species;
     }
-    public String getAge(String age){
-
-    public int getAge("4") {
-        return age;
+    public int getAge() {
+            return age;
     }
-
-    public int getWeight() {
-        return weight;
+    public void setAge(int age) {
+        this.age = age;
     }
-}
+        public int getWeight() {
+            return weight;
+    }
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
