@@ -20,7 +20,7 @@ public class RandomNumberAdder {
 
         System.out.println("rezultats:" + Result);
 
-
+        // O.L. Mainīgo nosaukumus vēlams rakstīt ar mazo sākuma burtu - random1, random2, random3 un result
 
 
 

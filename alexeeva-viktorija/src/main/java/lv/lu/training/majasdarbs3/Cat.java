@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.majasdarbs3;
 
 public class Cat {
     private String color;
@@ -12,24 +12,44 @@ public class Cat {
         this.name = name;
         this.weight = weight;
     }
+
     public String getColor() {
         return color;
     }
+
     public void setColor(String color) {
         this.color = color;
     }
+
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
+
+    public String getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     public int getWeight() {
         return weight;
     }
+
     public void setWeight(int weight) {
         this.weight = weight;
     }
-
-    // O.L. Ir labi, vienīgi nav izveidotas getter un setter metodes mainīgajiem species un age.
 }
