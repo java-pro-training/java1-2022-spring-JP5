@@ -17,5 +17,8 @@ public class RandomNumberAdder {
         System.out.println(Random3);
         System.out.println(Result);
 
+        //O.L. - Viss labi. Mazs komentārs, šajā gadījumā mums nav tik būtiska tā saskaitīšana un rindiņas
+        //12 - 14 ir iespējams apraksīt vienā rindiņā - saskaitot visu reizē "int Result = Random1 + Random2 + Random3"
+        //Kā arī mainīgos vēlams rakstīt ar mazo sākuma burtu - random1, random2, random3
     }
 }

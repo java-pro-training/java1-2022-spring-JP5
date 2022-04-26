@@ -31,6 +31,5 @@ public class Cat {
         this.weight = weight;
     }
 
-
-
+    // O.L. Ir labi, vienīgi nav izveidotas getter un setter metodes mainīgajiem species un age.
 }

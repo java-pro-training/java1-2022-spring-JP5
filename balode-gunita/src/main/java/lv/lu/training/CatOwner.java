@@ -10,5 +10,8 @@ public class CatOwner {
         System.out.println("Species: "+ myCat.getSpecies());
         System.out.println("Age: "+ myCat.getAge());
         System.out.println("Weight: "+ myCat.getWeight());
+
+        //O.L. Labi. Vienīgi darbs nav izpildīts līdz galam.
+        // Nepieciešams ievietot trūkstošās vērtības laukos "species" un "age"
     }
 }

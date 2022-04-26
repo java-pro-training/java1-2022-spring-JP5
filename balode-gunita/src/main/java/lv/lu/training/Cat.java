@@ -50,4 +50,7 @@ public class Cat {
         this.weight = weight;
     }
 
+    //O.L. Viss labi. Triviāls komentārs - labā prakse, ka starp metodēm ir papildus tukša rindiņa.
+    // Lekcijā es to neminēju, tāpēc nav liela bēda, ja tas netiek darīts.
+    // To var arī nodrošināt ar taustiņu kombināciju CTRL+ALT+L
 }

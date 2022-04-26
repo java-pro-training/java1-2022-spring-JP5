@@ -17,5 +17,6 @@ public class RandomNumberGenerator {
         System.out.println("Random Number: "+randomNumber3);
         System.out.println("Total Sum: "+sum);
 
+        //O.L Ļoti labi. Triviāls komentārs - klases nosaukums ir RandomNumberGenerator, bet tika prasīts RandomNumberAdder
     }
 }

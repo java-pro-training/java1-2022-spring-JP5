@@ -54,4 +54,5 @@ public class MajasDarbs3_Cat {
         this.weight = weight;
     }
 
+    //O.L. Klases nosaukums nosacījumos bija "Cat", bet tā nav liela kļūda
 }
