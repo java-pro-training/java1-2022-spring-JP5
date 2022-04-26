@@ -6,16 +6,16 @@ public class GreatestOfThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int firstNumber = scanner.nextInt(5);
-        int secondNumber = scanner.nextInt(8);
-        int thirdNumber = scanner.nextInt(12);
+        int firstNumber = scanner.nextInt();
+        int secondNumber = scanner.nextInt();
+        int thirdNumber = scanner.nextInt();
 
         if (firstNumber > secondNumber && firstNumber > thirdNumber) {
-            System.out.println(firstNumber + "the greatest");
+            System.out.println(firstNumber + " - First number is the greatest");
         } else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
-            System.out.println(secondNumber + "the greatest");
+            System.out.println(secondNumber + " - Second number is the greatest");
         } else {
-            System.out.println(thirdNumber + "the greatest");
+            System.out.println(thirdNumber + " - Third number is the greatest");
         }
     }
 }
