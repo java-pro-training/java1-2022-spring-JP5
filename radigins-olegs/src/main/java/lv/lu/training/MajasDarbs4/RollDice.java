@@ -5,6 +5,7 @@ import java.util.Random;
 public class RollDice {
     public static void main(String[] args) {
        Random  random = new Random();
+
         int dice1 = random.nextInt(7);
         System.out.println(dice1);
         int dice2 = random.nextInt(7);
@@ -17,6 +18,7 @@ public class RollDice {
             System.out.println("Spēle ir vinnēta.");
         } else {
             System.out.println("Spēle ir zaudēta.");
+
         }
     }
 }
