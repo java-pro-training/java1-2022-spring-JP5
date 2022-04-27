@@ -12,6 +12,7 @@ public class OtraLekcijaPirmaisMD {
 
 
 
-
+        // O.L. Redzu otrās lekcijas otro un trešo uzdevumu risinājumus,
+        // bet pirmo "Mainīgie un operatori - darbības ar mainīgajiem" neredzu
     }
 }

@@ -8,5 +8,6 @@ public class majas_darbs1 {
         String result = part1 + " " + part2;
         System.out.println(result);
 
+        // O.L. Labi, bet trūkst 2 nodarbības 2. mājas darbs "TringleAreaCalculator"
     }
 }
