@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.thirdhomework;
 
 public class Cat {
 

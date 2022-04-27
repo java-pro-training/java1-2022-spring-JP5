@@ -1,10 +1,8 @@
 package lv.lu.training;
+import java.util.Random;
 
 public class RandomNumberAdder {
     public static void main(String[] args) {
-
-        import java.util.Random;
-
         int firstRandomNumber;
         int secondRandomNumber;
         int thirdRandomNumber;
