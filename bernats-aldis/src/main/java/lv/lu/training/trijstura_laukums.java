@@ -6,5 +6,7 @@ public class trijstura_laukums {
         int height = 20;
         int result = (base * height)/2;
         System.out.println(result);
+
+        //O.L. Labi, vienīgi klases nosaukums bija prasīts "TringleAreaCalculator"
     }
 }
