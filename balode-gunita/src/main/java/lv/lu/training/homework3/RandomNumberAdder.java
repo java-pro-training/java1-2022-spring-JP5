@@ -1,8 +1,8 @@
-package lv.lu.training;
+package lv.lu.training.homework3;
 
 import java.util.Random;
 
-public class RandomNumberGenerator {
+public class RandomNumberAdder {
     public static void main(String[] args) {
         Random randomNumberGenerator = new Random();
 
@@ -17,6 +17,5 @@ public class RandomNumberGenerator {
         System.out.println("Random Number: "+randomNumber3);
         System.out.println("Total Sum: "+sum);
 
-        //O.L Ļoti labi. Triviāls komentārs - klases nosaukums ir RandomNumberGenerator, bet tika prasīts RandomNumberAdder
     }
 }
