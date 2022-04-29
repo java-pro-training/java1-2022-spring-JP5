@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.firsthomework;
 
 public class HelloWorld {
     public static void main(String[] args) {

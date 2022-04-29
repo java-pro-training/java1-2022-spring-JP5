@@ -1,4 +1,4 @@
-package lv.lu.training.majasdarbs4;
+package lv.lu.training.homework4;
 
 import java.util.Scanner;
 
@@ -11,11 +11,11 @@ public class GreatestOfThree {
         int thirdNumber = scanner.nextInt();
 
         if (firstNumber > secondNumber && firstNumber > thirdNumber) {
-            System.out.println(firstNumber + " - First number is the greatest");
+            System.out.println("Largest number is:" + firstNumber);
         } else if (secondNumber > firstNumber && secondNumber > thirdNumber) {
-            System.out.println(secondNumber + " - Second number is the greatest");
+            System.out.println("Largest number is:" + secondNumber);
         } else {
-            System.out.println(thirdNumber + " - Third number is the greatest");
+            System.out.println("Largest number is:" + thirdNumber);
         }
     }
 }

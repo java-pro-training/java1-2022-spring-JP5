@@ -1,4 +1,6 @@
-package lv.lu.training;
+package lv.lu.training.homework3;
+
+import lv.lu.training.homework3.Cat;
 
 public class CatOwner {
     public static void main(String[] args) {
@@ -11,7 +13,5 @@ public class CatOwner {
         System.out.println("Age: "+ myCat.getAge());
         System.out.println("Weight: "+ myCat.getWeight());
 
-        //O.L. Labi. Vienīgi darbs nav izpildīts līdz galam.
-        // Nepieciešams ievietot trūkstošās vērtības laukos "species" un "age"
     }
 }
