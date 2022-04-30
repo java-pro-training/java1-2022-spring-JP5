@@ -1,7 +1,5 @@
 package lv.lu.training.majasdarbs5;
 
-import javax.swing.*;
-import java.util.Scanner;
 
 public class Operations {
     public static void main(String[] args) {
