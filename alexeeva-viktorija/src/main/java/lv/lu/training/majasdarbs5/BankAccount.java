@@ -40,7 +40,6 @@ public class BankAccount {
                 ", debitBalance=" + debitBalance +
                 ", creditLimit=" + creditLimit +
                 ", usedCredit=" + usedCredit +
-                ", balance=" + balance +
                 ", amount=" + amount +
                 ", availableAmount=" + availableAmount +
                 ", isEnoughMoney=" + isEnoughMoney +
