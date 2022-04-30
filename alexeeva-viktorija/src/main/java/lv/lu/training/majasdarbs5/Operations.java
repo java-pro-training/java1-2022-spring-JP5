@@ -11,13 +11,13 @@ public class Operations {
 
 
         public boolean topUp(double amount,String pinCode);
-            if (pinCode1.!= pinCode) {
+            if (pinCode1 != pinCode) {
                 System.out.println("Pincode is wrong");
             } else myAccount.topUp(30);
         System.out.println("Current Balance is " + myAccount);
 
         public boolean withDraw(double amount,String pinCode);
-        if (pinCode1.eguals(pinCode)) {
+        if (pinCode1 != pinCode) {
             System.out.println("Pincode is wrong");
         } else myAccount.withDraw(70);
         System.out.println("Current Balance is " + myAccount);
