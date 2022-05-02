@@ -1,0 +1,7 @@
+Ļoti labi.  Man patīk, ka ir pievienoti arī komentāri, saistībā ar if izteiksmi RollDice
+klasē, tur jau es Telegram biju ierakstījis:
+
+Saistītbā ar tiem paziņojumiem - tur IntelliJ mums jau brīdina par nelielu loģikas kļūdu -
+pēc patreizējā koda, ja rezultāts neatbilst pirmajam if, tad tajā brīdī, kad tas aizies
+līdz else if, tad vienmēr tas, kas tur ir rakstīts result == 7 || result == 11 būs patiess.
+ Ir protams dažādi veidi kā šo izlabot, viens no veidiem ir nomainīt else if uz else.
