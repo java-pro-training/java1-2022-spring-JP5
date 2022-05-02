@@ -22,21 +22,28 @@ public class BankAccount {
     }
 
     public String pinCode1;
+    public double availableAmount = debitBalance + (creditLimit - usedCredit);
+    public boolean isEnoughMoney = availableAmount - amount > 0.01;
 
     public void topUp(double amount, String pinCode1) {
         if (pinCode1.equals(pinCode)) {
-            this.debitBalance += amount;
+            if (usedCredit > 0.01 && usedCredit < amount) {
+                this.availableAmount = -usedCredit + amount + debitBalance;
+            } else if(usedCredit > 0.01 && usedCredit >= amount) {
+                this.usedCredit -= amount;
+            } else this.debitBalance += amount;
         } else System.out.println("PinCode is wrong");
     }
 
     public void withDraw(double amount, String pinCode1) {
         if (pinCode1.equals(pinCode)) {
-            this.debitBalance -= amount;
+            if (debitBalance > amount) {
+                this.debitBalance -= amount;
+                } else if(isEnoughMoney && availableAmount > amount) {
+                this.availableAmount -= amount;
+            } else System.out.println("Not enough money");
         } else System.out.println("PinCode is wrong");
     }
-
-    public double availableAmount = debitBalance + (creditLimit - usedCredit);
-    public boolean isEnoughMoney = availableAmount - amount > 0.01;
 
 
     @Override

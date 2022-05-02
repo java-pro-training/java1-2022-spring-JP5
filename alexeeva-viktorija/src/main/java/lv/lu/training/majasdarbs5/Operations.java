@@ -9,7 +9,7 @@ public class Operations {
         myAccount.topUp(30, "1234");
         System.out.println("Current Balance is " + myAccount);
 
-        myAccount.withDraw(70, "1234");
+        myAccount.withDraw(150, "1234");
         System.out.println("Current Balance is " + myAccount);
 
 
