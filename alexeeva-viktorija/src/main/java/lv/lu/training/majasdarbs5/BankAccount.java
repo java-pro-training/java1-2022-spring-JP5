@@ -11,6 +11,7 @@ public class BankAccount {
     private double usedCredit;
     private double amount;
 
+
     public BankAccount(String accountNumber, String pinCode, double debitBalance, double creditLimit, double usedCredit) {
         this.accountNumber = accountNumber;
         this.pinCode = pinCode;
@@ -20,12 +21,18 @@ public class BankAccount {
 
     }
 
-    public void topUp(double amount) {
-        this.debitBalance += amount;
+    public String pinCode1;
+
+    public void topUp(double amount, String pinCode) {
+        if (pinCode1.equals(pinCode)) {
+            this.debitBalance += amount;
+        } else System.out.println("PinCode is wrong");
     }
 
-    public void withDraw(double amount) {
-        this.debitBalance -= amount;
+    public void withDraw(double amount, String pinCode) {
+        if (pinCode1.equals(pinCode)) {
+            this.debitBalance -= amount;
+        } else System.out.println("PinCode is wrong");
     }
 
     public double availableAmount = debitBalance + (creditLimit - usedCredit);
