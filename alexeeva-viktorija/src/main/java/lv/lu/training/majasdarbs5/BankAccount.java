@@ -23,13 +23,13 @@ public class BankAccount {
 
     public String pinCode1;
 
-    public void topUp(double amount, String pinCode) {
+    public void topUp(double amount, String pinCode1) {
         if (pinCode1.equals(pinCode)) {
             this.debitBalance += amount;
         } else System.out.println("PinCode is wrong");
     }
 
-    public void withDraw(double amount, String pinCode) {
+    public void withDraw(double amount, String pinCode1) {
         if (pinCode1.equals(pinCode)) {
             this.debitBalance -= amount;
         } else System.out.println("PinCode is wrong");
