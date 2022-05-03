@@ -12,6 +12,10 @@ public class Operations {
         myAccount.withDraw(150, "1234");
         System.out.println("Current Balance is " + myAccount);
 
+        myAccount.withDraw(180, "1234");
+        System.out.println("Current Balance is " + myAccount);
 
+        myAccount.topUp(80, "1122");
+        System.out.println("Current Balance is " + myAccount);
     }
 }
