@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.MajasDarbs2;
 
 public class OtraLekcijaPirmaisMD {
     public static void main(String[] args) {
