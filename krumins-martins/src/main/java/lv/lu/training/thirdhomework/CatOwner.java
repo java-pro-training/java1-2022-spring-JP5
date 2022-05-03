@@ -1,4 +1,6 @@
-package lv.lu.training;
+package lv.lu.training.thirdhomework;
+
+import lv.lu.training.thirdhomework.Cat;
 
 public class CatOwner {
 
