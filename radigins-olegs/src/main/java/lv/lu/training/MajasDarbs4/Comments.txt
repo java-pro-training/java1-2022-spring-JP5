@@ -1,0 +1,5 @@
+RollDice klasei nepieciešami labojumi.
+Dice2 un dice2 vērtības nav līdz galam pareizas.
+Izsaucot random.nextInt(7) tiks atgrieztas vērtības no 0 - 6,
+bet mūsu gadījumā kauliņa vērtība var būt no 1 - 6, tātad esošajam izsaukumam jāizmaina padotā vērtība no
+7 uz 6 un jāpieskaita 1.

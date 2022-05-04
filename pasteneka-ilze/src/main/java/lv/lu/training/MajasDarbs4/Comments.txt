@@ -1,0 +1,3 @@
+Ļoti labi.
+RollDice klasei ļoti interesanta pieeja, izmantots switch expression, kuru mēs pat nodarbības laikā neapskatījām.
+Prieks, ka tiek izmantoti papildus materiāli un advancētāki risinājumi.
