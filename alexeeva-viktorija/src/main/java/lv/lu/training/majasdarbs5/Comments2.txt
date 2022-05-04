@@ -1,0 +1,40 @@
+Ļoti labi, jau izskatās daudz labāk.
+
+Daži komentāri:
+
+24. rindiņā esošai ir lieks, to var dzēst ārā
+
+38. un 39. rindiņās esošā loģika ir jāpārness iekšā atbilstoši metodēs topUp un withDraw, vai arī
+tos var izdzēst un veidot loģiku no jauna.
+
+Mūsu gadījumā metodes topUp un withDraw būs vēl sarežģītākas.
+Visa loģika, kas ir aprakstīta uzdevuma nosacījumos pie naudas izņemšanas, ir jāapraksta šajās metodēs:
+
+1.Naudas izmaksa var tik veikta tikai tad, ja pin kods ir ievadīts pareizi
+2.Pirmkārt izmantot debeta bilanci
+3.Ja uz debeta konta nav naudas, tad atlikumā izmantojam kredīta bilanci.
+4.Izmantot kredīta kontu nedrīkst vairāk par kredīta līmeni (Piemērs #1)
+5.Kredīts nedrīkst pārsniegt kredīta limitu (Piemērs #2)
+6.PIN kodam ir jāievada obligāti
+7.Pirmkārt iemaksa nonāk kredīta kontā - kredīta segšanai, bet atlikusī summa tiek ieskaitīta debeta kontā (Piemērs #3)
+
+
+Pašlaik no šiem 7 punktiem šajās metodēs ir izpildīts 1, t.i., tiek pārbaudīts pinKods.
+
+Tālāk, piemēram, lai izpildītu otro punktu, var protams izpildīt dažādi, bet viens no veidiem būtu:
+Pārbaudīt vai summa, kuru persona vēlas izņem ir liekāka par to, kas atrodas šīs personas debeta kontā.
+Ja debeta kontā ir pietiekoši daudz nauda - ņemam nost, citādi varam izprintēt - kādu atbilstošu
+paziņojumu , piemēram, "Debeta kontā nepietiek līdzekļu".
+Šo kodu izstrādājot mēs jau daļēji būtu izpildījuši otro punktu.
+Tālāk būs jāveido loģika tam, kā rīkoties, ja debeta kontā nepietiek līdzekļi.
+Un tā pa solītim var iet uz priekšu.
+
+    public void withDraw(double amount, String pinCode1) {
+        if (pinCode1.equals(pinCode)) {
+            if (this.debitBalance > amount){
+                this.debitBalance -= amount;
+            } else {
+                System.out.println("Not enough money in debit account");
+            }
+        } else System.out.println("PinCode is wrong");
+    }

@@ -1,0 +1,9 @@
+Klasē RollDice, kad izsaucam random.nextInt(), ja mēs iekšā nepadodam kādu skaitli,
+tad mums atgriež ļoti dīvainas vērtības.
+
+Citādi, ja mēs padodam skaitli
+int dice2 = random.nextInt(4);
+Tad mums atgriezīs vērtību no 0 - 3,
+Tur nedaudz jāpielabo lai gala rezultātā tiktu atgrieza vērtība no 1 - 6.
+
+Kā arī 9 rindiņā izsaukums "random.nextInt();" ir lieks, jo atgrieztā vērtība netiek saglabāta

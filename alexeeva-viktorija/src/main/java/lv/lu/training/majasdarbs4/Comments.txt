@@ -1,0 +1,7 @@
+RollDice klasei nepieciešami labojumi.
+Pirmkārt dice2 un dice2 vērtības nav līdz galam pareizas.
+Izsaucot random.nextInt(6) tiks atgrieztas vērtības no 0 - 5,
+bet mūsu gadījumā kauliņa vērtība var būt no 1 - 6, tātad esošajam izsaukumam jāpieskaita 1.
+
+Otrkārt pie if nedaudz jāpiestrādā, result > 1 būs lieki, ja dice1 un dice2 vērtības būs no 1 - 6,
+tad mēs nevarēsim nemaz iegūt 1 saskaitot abus.

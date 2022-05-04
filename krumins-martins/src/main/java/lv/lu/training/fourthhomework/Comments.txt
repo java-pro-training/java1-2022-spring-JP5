@@ -1,0 +1,4 @@
+GreatestOfThree - izcili, man patīk ,ka pielikts arī komentārs.
+
+RollDice - tur ja mēs izsaucam random.nextInt() un nepadodam parametru metodes iekšienē
+random.nextInt(int bound), tad mēs iegūstam pilnīgi random skaitli. Šajā gadījumā mums gan vajadzētu skaitli no 1-6
