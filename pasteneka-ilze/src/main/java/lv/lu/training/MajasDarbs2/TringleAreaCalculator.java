@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.MajasDarbs2;
 
 public class TringleAreaCalculator {
     public static void main(String[] args) {

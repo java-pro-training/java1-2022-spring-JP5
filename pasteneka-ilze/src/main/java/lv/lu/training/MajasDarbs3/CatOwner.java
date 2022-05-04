@@ -1,10 +1,8 @@
-package lv.lu.training;
-
-import java.sql.SQLOutput;
+package lv.lu.training.MajasDarbs3;
 
 public class CatOwner {
     public static void main(String[] args) {
-    Cat myCat = new Cat("black", "Tom", 5);
+        Cat myCat = new Cat("black", "Tom", 5);
         System.out.println("My cat's color -" + myCat.getColor());
         System.out.println("name -" + myCat.getName());
         System.out.println("species -" + myCat.getSpecies());

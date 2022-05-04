@@ -1,0 +1,4 @@
+MetamaisKaulins klasei nepieciešami labojumi.
+Number1 un number2 vērtības nav līdz galam pareizas.
+Izsaucot random.nextInt(5) tiks atgrieztas vērtības no 0 - 4,
+bet šajā gadījumā vajadzīgs no 0-5 ( jo pēc tam pieskaitot +1, vērtības būs no 1 - 6)
