@@ -16,9 +16,9 @@ public class rollDice {
 
 
          if (Result == 7 || Result ==11){
-            System.out.println("You win!");
+            System.out.println("win!");
          }else{
-            System.out.println("You loose!");
+            System.out.println(" loose!");
         }
 
 
