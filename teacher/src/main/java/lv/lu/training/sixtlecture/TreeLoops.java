@@ -24,7 +24,7 @@ public class TreeLoops {
         int skaitlis = 5;
         int i = 0;
         while (i < skaitlis) {
-            System.out.println("#".repeat(i+1));
+            System.out.println("#".repeat(i + 1));
             i++;
         }
 
@@ -34,6 +34,7 @@ public class TreeLoops {
          * Ja lietotājs uzmin mazāku skaitli, tad programmai jāsaka - "Par zemu, mēģini vēlreiz"
          * Programma iet ciklā, līdz brīdim, kad lietotājs uzmin skaitli
          */
+        //Variants 1.
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
         int randomNumber = random.nextInt(11); // 0 - 10
@@ -48,5 +49,24 @@ public class TreeLoops {
             }
         }
         System.out.println("You guessed the number correctly, it was:" + randomNumber);
+
+        //Variants 2.
+//        Scanner scanner = new Scanner(System.in);
+//        Random random = new Random();
+//        int randomNumber = random.nextInt(11); // 0 - 10
+//        int enteredNumber;
+//        boolean isEqual = false;
+//        while (!isEqual) {
+//            System.out.println("Please enter an number:");
+//            enteredNumber = scanner.nextInt();
+//            if (enteredNumber > randomNumber) {
+//                System.out.println("Entered number is too big, try again!");
+//            } else if (enteredNumber < randomNumber) {
+//                System.out.println("Entered number is too small, try again");
+//            } else {
+//                isEqual = true;
+//            }
+//        }
+//        System.out.println("You guessed the number correctly, it was:" + randomNumber);
     }
 }
