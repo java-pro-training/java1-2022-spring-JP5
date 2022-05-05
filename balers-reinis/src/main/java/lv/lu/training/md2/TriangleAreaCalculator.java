@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.md2;
 
 public class TriangleAreaCalculator {
     public static void main(String[] args) {

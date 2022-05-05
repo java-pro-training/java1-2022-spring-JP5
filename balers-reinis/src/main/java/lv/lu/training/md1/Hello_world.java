@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.md1;
     import java.util.Random;
 
 
