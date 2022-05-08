@@ -12,7 +12,11 @@ public class Numbers {
     Scanner scanner = new Scanner(System.in);
 
     int randomNumber = random.nextInt(15);
-    int myNumber = scanner.nextInt();
+    int myNumber = 0;
+
+    while (myNumber != randomNumber) {
+        System.out.println("Please enter a number:");
+    myNumber = scanner.nextInt();
 
     if ( myNumber > randomNumber) {
         System.out.println("too much, try again");
@@ -22,4 +26,5 @@ public class Numbers {
         System.out.println( "Number is the same");
     }
 }
+    }
 }
