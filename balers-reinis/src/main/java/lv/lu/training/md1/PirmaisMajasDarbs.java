@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.md1;
 
 public class PirmaisMajasDarbs {
     public static void main(String[] args) {
