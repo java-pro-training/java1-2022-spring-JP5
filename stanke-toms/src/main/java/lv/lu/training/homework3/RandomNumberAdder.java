@@ -8,6 +8,6 @@ public class RandomNumberAdder {
         int random3 = randomNumberGenerator.nextInt(11);
 
         int result = random1 + random2 + random3;
-        System.out.println("Rezultats" + "=" + result);
+        System.out.println("Rezultats" + " = " + result);
     }
 }
