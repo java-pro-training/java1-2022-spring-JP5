@@ -3,3 +3,8 @@ Jautājums no MoneyTransaction klases 6. rindiņas:
 Atbilde:
 -Mainīgais "amount" ir definēts klasē BankAccount 11. rindiņā + tas ir izmantots arī toString metodē
 Lai to izlabotu, jāizdzēš šis mainīgais un jāuzraksta no jauna toString metode
+
+Ļoti labi, ka tiek izmantoti komentāri klasēs
+Tāpat arī ļoti labi, ka tiek izmantots sout dažādās vietās, lai pēc izpildes varētu konsolē apskatīties kas notika
+BankAccount 26. rindiņā pie divu tekstu salīdzināšanas atgādinu, ka labāk izmantot "equals"
+Mājasdarbs ieskaitīts
