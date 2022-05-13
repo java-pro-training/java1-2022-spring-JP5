@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.majasdarbs_vecie;
 
 import java.util.Random;
 
@@ -6,8 +6,8 @@ public class RollDice {
     public static void main(String[] args) {
 
         Random random = new Random();
-        int dice1 = random.nextInt(7);
-        int dice2 = random.nextInt(7);
+        int dice1 = random.nextInt(6)+1;
+        int dice2 = random.nextInt(6)+1;
         int result = dice1 + dice2;
 
         if (result == 7) {
@@ -21,3 +21,4 @@ public class RollDice {
 
     }
 }
+
