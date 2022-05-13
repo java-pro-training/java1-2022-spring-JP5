@@ -1,0 +1,4 @@
+Pirmajam mājas darbam pietrūkst citas klases, lūgums apskatīt 2 nodarbības MD.
+
+Trešajam mājas darbam Cat klasē pašās beigās pietrūkst aizverošās figūriekavas "}"
+Bet tā ir OK, ieskaitīts
