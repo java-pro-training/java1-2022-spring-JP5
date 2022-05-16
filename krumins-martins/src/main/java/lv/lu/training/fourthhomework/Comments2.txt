@@ -1,0 +1,4 @@
+Paldies par labojumiem, ir labāk, bet joprojām līdz galam netiek izpildīti uzdevuma
+nosacījumi, jo random.nextInt(5) + 1; mums atgriezīs vērtību no 1 - 5,
+bet mums nepieciešams 1-6, tāpēc arī pie "result == 11" mums metas paziņojums Condition is always false when
+reached
