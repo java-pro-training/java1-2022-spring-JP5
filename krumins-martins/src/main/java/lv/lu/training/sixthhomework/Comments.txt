@@ -1,0 +1,12 @@
+Piezīme par klasi OddNumberLookup,
+Simbols & nepārbauda atlikumu. Atlikumu pārbauda ar %, interesanti gan, ka metode strādā arī šādi
+Pārbaudīju ievadot šādu izteiksmi 190 & 5, atlikums bija 4, tā kā, jā, tas nav atlikums.
+Tas simbols & skaitās bitwise AND
+
+Bieži vien ir problēmas, kad nepieciešams izvadīts datus, kur ir komats, bet beigās komata nav.
+Pašlaik esošais risinājums strādā tikai tad, ka pedējais cipars ir nepāra, ja pēdējais cipars ir nepāra,
+piemēram, tiek padots, 3, 8, tad izvadīsies "3, 5, 7, "
+Tā nav liela problēma, MD ir ieskaitīts, vienkārši gribeju šo iekomentēt.
+
+Ātrs veids kā to salabot būtu uzlabojot otru if
+if (i < till - 1)

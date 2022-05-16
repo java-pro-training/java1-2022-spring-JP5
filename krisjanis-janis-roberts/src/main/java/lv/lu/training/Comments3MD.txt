@@ -1,0 +1,3 @@
+MD ieskaitīts. Piezīme gan, ka MD aprakstā nebija minēts par to, ka
+izsaucot randomNumberGenerator.nextInt(18); būtu jāliek kāda vērtība iekšā.
+Tā kā vajadzētu būt randomNumberGenerator.nextInt();
