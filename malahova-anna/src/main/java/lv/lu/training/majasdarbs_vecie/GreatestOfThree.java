@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.majasdarbs_vecie;
 
 import java.util.Scanner;
 

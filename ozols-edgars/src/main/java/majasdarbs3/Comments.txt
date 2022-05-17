@@ -1,0 +1,9 @@
+Cat klasē - labā prakse ir konstruktoru rakstīt pēc klases mainīgo definēšanas,
+kas šajā gadījumā būtu 11 rindiņa.
+
+Par RandomNumberAdded,
+randomNumberAdder.nextInt(16) šī izteiksme atgriezīs random skaitli no 0 - 15,
+Ja mēs nepadosim veselu skaitli randomNumberAdder.nextInt(), tad izteiksme atgriezīs random skaitli daudz
+lielākā amplitūdā, uzdevuma nosacījoms nebija minēts, ka mums ir kāda amplitūda.
+
+MD ieskaitīts, ja būs labojumi, apskatīšu tos

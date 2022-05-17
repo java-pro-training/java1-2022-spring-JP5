@@ -1,0 +1,6 @@
+catOwner klases nosaukums jāsāk ar lielo sākuma burtu
+
+RandomNumberAdder MD izpildīts ne līdz galam. Pietrūkst:
+
+Saskaitiet lokālos 3 mainīgos un izvadiet rezultātu konsolē.
+Bet MD ieskaitīs

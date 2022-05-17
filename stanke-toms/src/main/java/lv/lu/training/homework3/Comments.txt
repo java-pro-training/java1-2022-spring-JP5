@@ -1,0 +1,4 @@
+MD ieskaitīts, arī 1. un 2. MD.
+Piezīme gan, ka 3. MD aprakstā nebija minēts par to, ka
+izsaucot randomNumberGenerator.nextInt(16); būtu jāliek kāda vērtība iekšā.
+Tā kā vajadzētu būt randomNumberGenerator.nextInt();
