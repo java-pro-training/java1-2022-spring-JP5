@@ -1,0 +1,34 @@
+Piektais un sestais MD ir ieskaitīti, komentāru nav.
+Par septīto MD,
+
+Mājasdarba aprakstā aprakstītās koda daļinas iet kā evolūcija, nevis kā papildinājums.
+Atslēgas vārds "return" parasti tiek izmantots vienu reizi, kā arī pēc tā vairs nekāds kods netiek izpildīts.
+
+Reverse klases attīstība.
+
+1. Posms (atgriežam tukšu masīvu)
+    public static int[] reverse(int[] array) {
+        return new int[]{};
+    }
+
+2. Posms (atgriežam masīvu ar lielumu tādu pašu kā ienākošajam masīvam)
+    public static int[] reverse(int[] array) {
+        int[] result = new int[array.length];
+        return result;
+    }
+
+3. Posms (Mēģinam jau implementēt loģiku)
+    public static int[] reverse(int[] array) {
+        int[] result = new int[array.length];
+
+        for (int i = array.length - 1; i >= 0; i--) {
+            //šeit i ir vienāds ar masīva lielāko pēdējā elementa indeksu
+            //pie katras iterācijas skaitītāju samazinām par vienu
+            / un iterējam līdz nonākam līdz masīva sākumam
+            //             ...
+        }
+
+        return result;
+    }
+
+Ideja ir tāda, ka mēs mācamies programmēt nevis visu uzreiz, bet sākt ar mazāko daļiņu un tad to "apaudzēt"

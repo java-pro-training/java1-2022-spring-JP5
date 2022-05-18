@@ -1,0 +1,6 @@
+Lai pazustu error par userPinCode, tur jāizmanto "this.pinCode", jo nav izveidots tāds
+mainīgais ar nosaukumu userPinCode.
+
+Mainīgais insertMoney arī nav izveidots, bet izskatās, ka mainīgo amount var izmantot tā vietā.
+
+Iesaku paskatīties citu kolēģu darbus, lai gūtu labaku priekštatu kā turpināt tālāk šī MD izpildi
