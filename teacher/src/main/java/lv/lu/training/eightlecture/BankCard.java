@@ -1,9 +1,8 @@
-package lv.lu.training.homework5;
+package lv.lu.training.eightlecture;
 
 import java.time.LocalDate;
 
 public class BankCard {
-
     private String bankName;
     private String origin;
     private String holderName;
@@ -11,7 +10,6 @@ public class BankCard {
     private LocalDate expiryDate;
     private String cvv;
     private double balance;
-
 
     public BankCard(String bankName,
                     String origin,
@@ -28,15 +26,14 @@ public class BankCard {
         this.balance = 0;
     }
 
-
     public void withdraw(double value) {
         this.balance -= value;
     }
 
-
     public void addFunds(double value) {
         this.balance += value;
     }
+
     @Override
     public String toString() {
         return "BankCard{" +
@@ -49,6 +46,4 @@ public class BankCard {
                 ", balance=" + balance +
                 '}';
     }
-
-
 }

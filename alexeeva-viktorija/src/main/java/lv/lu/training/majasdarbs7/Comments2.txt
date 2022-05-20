@@ -1,0 +1,9 @@
+Interesanta pieeja. Tagad ir labāk, bet svarīgi saprast, ka gala rezultāts nav atkarīgs no tā,
+kāds kods ir iepriekš izveidots. Respektīvi, mēs varam izveidot metodi un laika gaitā to uzlabot.
+Šajā gadījumā mums nav nepieciešams saglabāt visus "evolūcijas" posmus - vajadzīgs ir tikai gala rezultāts,
+kas ir viena reverse metode klasē ArrayUtils un un 6 rindiņas klasē ArrayUtilsTest.
+
+Kāpēc kods pašlaik nestrādā? Jo ArrayUtilsTest klasē, 7 rindiņā mēs izsaucam result[0],
+kas ir masīva resulut elements ar indeksu 0.
+Bet metodē reverse mēs atgriežam tukšu masīvu.
+Tātad rodas konflikts - mēs pieprasām elementu, kas neeksistē.

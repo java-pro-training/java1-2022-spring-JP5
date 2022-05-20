@@ -1,0 +1,12 @@
+Par GreatestOfTree,
+Ļoti labi, pietrūkst vienīgi nedaudz paformatēt izmantojot CTRL+ALT+L
+Otra lieta - visos if ir viena un tā pati frāze - Lielakais Skailtis!,
+bet ja es palaižu programmu un ievadu 3 skaitļus, tad man pasaka "Lielakais Skailtis!"
+Un man nav zināms, kurš tad bija tas lielākais skaitlis
+
+MD ieskaitīts, ja būs labojumi, apskatīšu tos
+
+Par rollDice -
+Klases nosaukums vienmēr jāsāk ar lielo sākuma burtu - RollDice
+Šajā klasē arī pietrūkst formatēšana, kā arī ir importēta bibliotēka, kas netiek izmantota,
+to var salabot ar CTRL+ALT+O
