@@ -6,9 +6,11 @@ public class RollDice {
     public static void main(String[] args) {
        Random  random = new Random();
 
-        int dice1 = random.nextInt(7);
+        int dice1 = random.nextInt(6);
+        dice1++;
         System.out.println(dice1);
-        int dice2 = random.nextInt(7);
+        int dice2 = random.nextInt(6);
+        dice2++;
         System.out.println(dice2);
         int result = dice1 + dice2;
         System.out.println("Rezult = " + result);

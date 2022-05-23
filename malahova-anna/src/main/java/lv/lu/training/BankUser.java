@@ -1,14 +1,20 @@
 package lv.lu.training;
 
-import java.util.Scanner;
-
 public class BankUser {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        int userPinCode = scanner.nextInt();
-        int insertMoney = scanner.nextInt();
-        int withdrawMoney = scanner.nextInt();
+        BankAccount myAccount = new BankAccount("11112222", "1234", 100, 200, 180);
+
+        System.out.println("My account " +myAccount);
+
+        //GB: My account statement: lv.lu.training.homework5.BankAccount@30f39991 --> @Override
+
+        myAccount.withdraw(200, "1234");
+        System.out.println("My account balance: " +myAccount);
+
+        myAccount.topup(300, "1234");
+        System.out.println("My account balance: " +myAccount);
+
 
 
     }
