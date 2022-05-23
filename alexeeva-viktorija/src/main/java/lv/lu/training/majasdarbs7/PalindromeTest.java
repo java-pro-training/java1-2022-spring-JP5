@@ -1,6 +1,6 @@
 package lv.lu.training.majasdarbs7;
 
-public class PalindromeTest {
+public class  PalindromeTest {
     public static void main(String[] args) {
         String[] word = Palindrome.isPalindrome(new String[]{"A", "n", "n", "A"});
 
