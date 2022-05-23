@@ -2,12 +2,13 @@ package lv.lu.training.majasdarbs8;
 
 public class HourlyEmployee extends Employee {
 
-    int hoursWorked;
-    double payRate;
+    protected int hoursWorked;
+    protected double payRate;
 
-    public HourlyEmployee(String firstName, String lastName, String socialSecurityNumber, double salary, int hoursWorked) {
-        super(firstName, lastName, socialSecurityNumber, salary);
+    public HourlyEmployee(String firstName, String lastName, String socialSecurityNumber, int hoursWorked, double payRate) {
+        super(firstName, lastName, socialSecurityNumber);
         this.hoursWorked = hoursWorked;
+        this.payRate = payRate;
     }
 
     @Override

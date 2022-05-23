@@ -2,7 +2,7 @@ package lv.lu.training.majasdarbs8;
 
 public class Executive extends Employee {
 
-    double bonus;
+    protected double bonus;
 
     public Executive(String firstName, String lastName, String socialSecurityNumber, double salary, double bonus) {
         super(firstName, lastName, socialSecurityNumber, salary);

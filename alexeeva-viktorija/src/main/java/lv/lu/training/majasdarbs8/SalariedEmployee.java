@@ -2,7 +2,7 @@ package lv.lu.training.majasdarbs8;
 
 public class SalariedEmployee extends Employee {
 
-    double weeklySalary;
+    protected double weeklySalary;
 
     public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber, double weeklySalary) {
         super(firstName, lastName, socialSecurityNumber);
