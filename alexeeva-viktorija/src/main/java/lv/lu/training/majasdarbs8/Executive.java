@@ -1,5 +1,7 @@
 package lv.lu.training.majasdarbs8;
 
+import java.util.Objects;
+
 public class Executive extends Employee {
 
     protected double bonus;
@@ -24,5 +26,26 @@ public class Executive extends Employee {
 
     public void setBonus(double bonus) {
         this.bonus = bonus;
+    }
+
+    @Override
+    public String toString() {
+        return "Executive{" +
+                "bonus=" + bonus +
+                "} " + super.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Executive)) return false;
+        if (!super.equals(o)) return false;
+        Executive executive = (Executive) o;
+        return Double.compare(executive.getBonus(), getBonus()) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), getBonus());
     }
 }
