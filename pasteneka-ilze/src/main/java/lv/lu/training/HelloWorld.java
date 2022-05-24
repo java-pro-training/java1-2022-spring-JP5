@@ -8,6 +8,7 @@ public class HelloWorld
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(305);
         System.out.println(randomNumber);
+        System.out.println(10>5);
 
     }
 }

@@ -1,0 +1,73 @@
+Kopumā labi, bet ir vairākas lietas, pie kurām vajadzētu piedomāt.
+Pirmkārt, laikam svarīgākais saprast, ka visai loģikai ir jābūt aprakstītai BankAccount klasē, precīzāk - metodēs topUp un withDraw
+(daļa jau no tā ir uzrakstīta, tikai jāpārnes no Operations klases uz BankAccount klasi)
+
+Par pašu Operations klasi runājot - tur ārpus main metodes citas metodes nav jataisa.
+Gala rezultātā Operations klase izskatīsies ļoti līdzīgi CardUser klasei.
+Svarīgi arī, ka topUp un withDraw metodēm vēl jāpievieno papildus arguments - pinCode.
+
+BankAccount klase izskatīsies aptuveni šādi:
+
+package lv.lu.training.majasdarbs5;
+
+import java.util.Objects;
+
+public class BankAccount {
+
+    private String accountNumber;
+    private String pinCode;
+    private double debitBalance;
+    private double creditLimit;
+    private double usedCredit;
+    private double amount;
+
+    public BankAccount(String accountNumber, String pinCode, double debitBalance, double creditLimit, double usedCredit) {
+        this.accountNumber = accountNumber;
+        this.pinCode = pinCode;
+        this.debitBalance = debitBalance;
+        this.creditLimit = creditLimit;
+        this.usedCredit = usedCredit;
+
+    }
+
+    public void topUp(double amount, String pinCode) {
+        ...
+        // Šeit aprakstīta naudas ielikšanas loģika
+        ...
+    }
+
+    public void withDraw(double amount, String pinCode) {
+        ...
+        // Šeit aprakstīta izņemšanas loģika
+        ...
+    }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "accountNumber='" + accountNumber + '\'' +
+                ", pinCode='" + pinCode + '\'' +
+                ", debitBalance=" + debitBalance +
+                ", creditLimit=" + creditLimit +
+                ", usedCredit=" + usedCredit +
+                ", amount=" + amount +
+                ", availableAmount=" + availableAmount +
+                ", isEnoughMoney=" + isEnoughMoney +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof BankAccount)) return false;
+        BankAccount that = (BankAccount) o;
+        return Double.compare(that.debitBalance, debitBalance) == 0 && Double.compare(that.creditLimit, creditLimit) == 0 && Double.compare(that.usedCredit, usedCredit) == 0 && Double.compare(that.amount, amount) == 0 && Double.compare(that.availableAmount, availableAmount) == 0 && isEnoughMoney == that.isEnoughMoney && accountNumber.equals(that.accountNumber) && pinCode.equals(that.pinCode);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(accountNumber, pinCode, debitBalance, creditLimit, usedCredit, amount, availableAmount, isEnoughMoney);
+    }
+}
+
+
