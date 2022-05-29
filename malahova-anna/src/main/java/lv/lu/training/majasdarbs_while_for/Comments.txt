@@ -1,0 +1,2 @@
+Ļoti labi. OddNumberLookup izvade nedaudz atšķiras no uzdevumā dotās, bet tas nav tik būtiski.
+Pašlaik visi MD no 1 līdz 6 ir ieskaitīti
