@@ -34,8 +34,14 @@ public class Executive extends Employee {
     @Override
     public String toString() {
         return "Executive{" +
-                "bonus=" + bonus +
-                "} " + super.toString();
+                "firstName='" + getFirstName() + '\'' +
+                ", lastName='" + getLastName() + '\'' +
+                ", socialSecurityNumber='" + getSocialSecurityNumber() + '\'' +
+                ", salary=" + getSalary() +
+                ", bonus=" + bonus +
+                ", awardBonus=" + awardBonus() +
+                ", pay=" + pay() +
+                '}';
     }
 
     @Override
