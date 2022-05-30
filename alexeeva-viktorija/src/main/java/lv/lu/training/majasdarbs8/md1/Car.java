@@ -29,7 +29,7 @@ public class Car {
     public String toString() {
         return "Car{" +
                 "color='" + color + '\'' +
-                ", year=" + year + '\'' +
+                ", year=" + year +
                 ", manufacturer='" + manufacturer + '\'' +
                 '}';
     }

@@ -15,11 +15,15 @@ public class Buss extends Car implements Passenger {
         return this.passengerSeatCount;
     }
 
+
     @Override
     public String toString() {
         return "Buss{" +
                 "passengerSeatCount=" + passengerSeatCount +
-                "} " + super.toString();
+                ", color='" + getColor() + '\'' +
+                ", year=" + getYear() +
+                ", manufacturer='" + getManufacturer() + '\'' +
+                '}';
     }
 
     @Override
