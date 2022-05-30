@@ -1,4 +1,4 @@
-package lv.lu.training.majasdarbs8.md2.md1;
+package lv.lu.training.majasdarbs8.md1;
 
 import java.util.Objects;
 
