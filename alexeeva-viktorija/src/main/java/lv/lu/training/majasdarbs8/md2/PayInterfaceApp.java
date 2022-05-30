@@ -1,4 +1,4 @@
-package lv.lu.training.majasdarbs8;
+package lv.lu.training.majasdarbs8.md2;
 
 public class PayInterfaceApp {
     public static void main(String[] args) {

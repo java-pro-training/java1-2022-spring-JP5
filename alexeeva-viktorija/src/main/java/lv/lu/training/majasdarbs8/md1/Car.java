@@ -1,4 +1,4 @@
-package lv.lu.training.majasdarbs8;
+package lv.lu.training.majasdarbs8.md1;
 
 import java.util.Objects;
 
@@ -29,7 +29,7 @@ public class Car {
     public String toString() {
         return "Car{" +
                 "color='" + color + '\'' +
-                ", year=" + year +
+                ", year=" + year + '\'' +
                 ", manufacturer='" + manufacturer + '\'' +
                 '}';
     }

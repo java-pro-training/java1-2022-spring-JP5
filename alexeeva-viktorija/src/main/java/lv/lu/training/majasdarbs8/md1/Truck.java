@@ -1,8 +1,8 @@
-package lv.lu.training.majasdarbs8;
+package lv.lu.training.majasdarbs8.md1;
 
 import java.util.Objects;
 
-public class Truck extends Car{
+public class Truck extends Car {
     private long loadCapacity;
 
     public Truck(String color, int year, String manufacturer, long loadCapacity) {
