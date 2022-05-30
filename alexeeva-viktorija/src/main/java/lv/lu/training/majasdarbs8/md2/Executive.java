@@ -16,8 +16,11 @@ public class Executive extends Employee {
     }
 
     @Override
-    public double pay() {
-        return salary+awardBonus();
+    public double pay(){
+        double salary = getSalary() + getBonus();
+        setBonus(0);
+        return salary;
+
     }
 
     public double getBonus() {

@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class SalariedEmployee extends Employee {
 
-    protected double weeklySalary;
+    private double weeklySalary;
 
     public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber, double weeklySalary) {
         super(firstName, lastName, socialSecurityNumber);

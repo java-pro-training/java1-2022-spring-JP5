@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class HourlyEmployee extends Employee {
 
-    protected int hoursWorked;
-    protected double payRate;
+    private int hoursWorked;
+    private double payRate;
 
     public HourlyEmployee(String firstName, String lastName, String socialSecurityNumber, int hoursWorked, double payRate) {
         super(firstName, lastName, socialSecurityNumber);
@@ -14,8 +14,11 @@ public class HourlyEmployee extends Employee {
     }
 
     @Override
-    public double pay(){
-        return hoursWorked*payRate;
+    public double pay() {
+        double salary = getHoursWorked() * getPayRate();
+        setHoursWorked(0);
+        return salary;
+
     }
 
     public int getHoursWorked() {
