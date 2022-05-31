@@ -1,0 +1,9 @@
+MD 1 komentāru nav, viss ok.
+
+MD 2, par Executive runājot, tur varbūt varētu labak uzrakstīt, bet ideja bija tomēr, ka tas ir award,
+jo tāpat galā mēs izvadām cik šai personai kopā ir jāmaksā ar "payment due"
+
+Kaut kas nav ar hourly employee klasi, jo izvadot rādās - hours worked: 0
+Tāpat arī executive employee pēc pay metodes izpildes netiek nodzēsts bonuss.
+
+Bet kopumā ir ļoti labi!
