@@ -1,0 +1,23 @@
+Jautajumi ir saistiti:
+
+-) Klase "HourlyEmployee" - Override metodi pay
+@Override
+    public double pay() {
+        return getHoursWorked() * getPayRate();
+    }
+
+
+Jautajums, kadel seit pec metodes izpildes jadefine hoursWorked=0? 
+Ja to seit ievieto, tad, izpildot klasi PayInterfaceApp, rezultata neielasas hoursWorked (0.0). 
+Kas butu jaizlabo?
+
+
+-) Klase "Executive" - Override metodi pay
+@Override
+    public double pay() {
+        return getSalary()+getBonus();
+    }
+
+Jautajums, kadel seit pec metodes izpildes jadefine bonus=0? 
+Ja to seit ievieto, tad, izpildot klasi PayInterfaceApp, rezultata neielasas bonus (0.0). 
+Kas butu jaizlabo?
