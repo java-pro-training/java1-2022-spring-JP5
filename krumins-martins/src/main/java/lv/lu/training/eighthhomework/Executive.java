@@ -14,7 +14,9 @@ public class Executive extends Employee {
 
     @Override
     public double pay() {
-        return super.getSalary() + this.bonus;
+         double bonus = this.bonus;
+         this.bonus = 0;
+         return super.getSalary() + bonus;
     }
 
     public double getBonus() {
@@ -28,7 +30,6 @@ public class Executive extends Employee {
     @Override
     public String toString() {
         return "executive employee: Employee " + super.getFirstName() + " " + super.getLastName() + " " + super.getSSN() +
-                " salary plus award: $" + this.bonus; // salary plus award =  : $1,000.00 nav pareizi no loģikas viedokļa,
-                                                      // tas ir tikai award
+                " salary plus award: $" + this.bonus;
     }
 }
