@@ -1,8 +1,8 @@
-package lv.lu.training.majasdarbs8;
+package lv.lu.training.majasdarbs8.md1;
 
 import java.util.Objects;
 
-public class Buss extends Car implements Passenger{
+public class Buss extends Car implements Passenger {
     public final int passengerSeatCount;
 
     public Buss(String color, int year, String manufacturer, int passengerSeatCount) {
@@ -15,11 +15,15 @@ public class Buss extends Car implements Passenger{
         return this.passengerSeatCount;
     }
 
+
     @Override
     public String toString() {
         return "Buss{" +
                 "passengerSeatCount=" + passengerSeatCount +
-                "} " + super.toString();
+                ", color='" + getColor() + '\'' +
+                ", year=" + getYear() +
+                ", manufacturer='" + getManufacturer() + '\'' +
+                '}';
     }
 
     @Override

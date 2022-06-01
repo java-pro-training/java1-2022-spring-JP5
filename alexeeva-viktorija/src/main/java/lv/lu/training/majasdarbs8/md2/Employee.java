@@ -1,12 +1,12 @@
-package lv.lu.training.majasdarbs8;
+package lv.lu.training.majasdarbs8.md2;
 
 import java.util.Objects;
 
 public abstract class Employee implements Payable {
-    protected String firstName;
-    protected String lastName;
-    protected String socialSecurityNumber;
-    protected double salary;
+    private String firstName;
+    private String lastName;
+    private String socialSecurityNumber;
+    private double salary;
 
     public Employee(String firstName, String lastName, String socialSecurityNumber) {
         this.firstName = firstName;

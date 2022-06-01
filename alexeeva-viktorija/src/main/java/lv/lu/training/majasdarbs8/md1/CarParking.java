@@ -1,4 +1,4 @@
-package lv.lu.training.majasdarbs8;
+package lv.lu.training.majasdarbs8.md1;
 
 import java.util.Arrays;
 import java.util.List;

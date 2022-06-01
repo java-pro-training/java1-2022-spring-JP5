@@ -1,10 +1,10 @@
-package lv.lu.training.majasdarbs8;
+package lv.lu.training.majasdarbs8.md2;
 
 import java.util.Objects;
 
 public class SalariedEmployee extends Employee {
 
-    protected double weeklySalary;
+    private double weeklySalary;
 
     public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber, double weeklySalary) {
         super(firstName, lastName, socialSecurityNumber);
@@ -27,8 +27,13 @@ public class SalariedEmployee extends Employee {
     @Override
     public String toString() {
         return "SalariedEmployee{" +
-                "weeklySalary=" + weeklySalary +
-                "} " + super.toString();
+                "firstName='" + getFirstName() + '\'' +
+                ", lastName='" + getLastName() + '\'' +
+                ", socialSecurityNumber='" + getSocialSecurityNumber() + '\'' +
+                ", salary=" + getSalary() +
+                ", weeklySalary=" + weeklySalary +
+                ", pay=" + pay() +
+                '}';
     }
 
     @Override

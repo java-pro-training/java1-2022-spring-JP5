@@ -1,4 +1,4 @@
-package lv.lu.training.majasdarbs8;
+package lv.lu.training.majasdarbs8.md2;
 
 import java.util.Objects;
 
@@ -16,8 +16,11 @@ public class Executive extends Employee {
     }
 
     @Override
-    public double pay() {
-        return salary+awardBonus();
+    public double pay(){
+        double salary = getSalary() + getBonus();
+        setBonus(0);
+        return salary;
+
     }
 
     public double getBonus() {
@@ -31,8 +34,14 @@ public class Executive extends Employee {
     @Override
     public String toString() {
         return "Executive{" +
-                "bonus=" + bonus +
-                "} " + super.toString();
+                "firstName='" + getFirstName() + '\'' +
+                ", lastName='" + getLastName() + '\'' +
+                ", socialSecurityNumber='" + getSocialSecurityNumber() + '\'' +
+                ", salary=" + getSalary() +
+                ", bonus=" + bonus +
+                ", awardBonus=" + awardBonus() +
+                ", pay=" + pay() +
+                '}';
     }
 
     @Override
