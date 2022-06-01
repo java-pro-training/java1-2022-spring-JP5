@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training.eightlecture;
 
 import java.time.LocalDate;
 
@@ -10,14 +10,14 @@ public class CardUser {
                 "Roberts Polis",
                 "2345678345",
                 LocalDate.of(2024, 12, 10),
-                "134",0
-        );
+                "134");
+
+        System.out.println("Mana karte: " + myCard);
 
         myCard.addFunds(100d);
         System.out.println("Mana karte: " + myCard);
 
         myCard.withdraw(20d);
         System.out.println("Mana karte: " + myCard);
-
     }
 }
