@@ -1,4 +1,4 @@
-package lv.lu.training;
+package lv.lu.training._7.md;
 
 public class ArrayUtils {
 
