@@ -1,0 +1,1 @@
+MD ieskaitīts, vienīgi nav skaidrs kā tika pārbaudīts vai BankAccount klase strādā

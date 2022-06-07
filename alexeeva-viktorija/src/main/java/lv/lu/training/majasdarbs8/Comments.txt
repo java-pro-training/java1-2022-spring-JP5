@@ -1,0 +1,29 @@
+Šajā MD ir diezgan daudz klases, šeit jau redzams prasītos izveidot 2
+papildus pakotnes un md 1 ielikt vienā un md 2 ielikt otrā, citādi grūti saprast, kura klase pieder kuram MD.
+
+Par MD 1 runājot - ļoti labi, vienīgi vajadzētu apskatīties toString metodes, kaut kas tur līdz galam nav.
+Ja salīdzina to, ko izvada šī programma, pret to, kas ir nodarādīts MD aprakstā - ir atšķirības.
+
+Komentāri par MD 2:
+1. Employee klasē labāk būtu visus mainīgos uzlikt kā private ( to vēlams darīt, līdz brīdim, kad
+ir labs arguments tos pārvērst par protected vai public). Tāpat arī klasē HourlyEmployee un SalariedEmployee
+Pēc tā izdarīšanas nestrādās pay metode Execute klasē - tas ir ok, tur nedaudz jāpielabo tā metode būs.
+2. Pietrūkst 2 nosacījumi -
+klasē HourlyEmployee:
+"aizvietojam (override) metodi pay kura atgriež hoursWorked * payRate. Pēc metodes izpildes hoursWorked = 0."
+klasē Executive:
+"Metode “pay” atgriež virsklases pay metodes rezultātu ar pieskaitītu bonus. Pēc metodes izpildes bonus = 0."
+Abos klasēs nav tas, kas pēc metodes izpildes vērtība tiek uzstādīta = 0.
+
+Viens no variantiem kā to izdarīt varētu būt pēc līdzīgas loģikas.
+
+    @Override
+    public double pay(){
+        double salary = getWorkedHours() * getPayRate();
+        setWorkedHours(0);
+        return salary;
+    }
+
+3.Arī šajā darbā kaut kas nav ar toString metodēm, lūgums pārskatīt tās
+
+Kopumā labi padarīts darbs, MD ir ieskaitīs, bet droši var arī veikt labojumus un es tos apskatīšu

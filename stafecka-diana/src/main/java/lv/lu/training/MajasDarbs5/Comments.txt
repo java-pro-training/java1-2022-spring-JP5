@@ -1,0 +1,7 @@
+Ļoti labi, paldies par ieskatu BankCard un CardUser abās vērsijās
+
+Par BankAccount klasi runājot, tur topUp metodei ir jāveic labojumi,
+jo ja  usedCreditLimit=50 un mēs papildinam kontru par teiksim 30, tad rezultāts no debit konta tiek atskaitīti 20
+un kredīts tiek dzēsts.
+Ir jāskatās gadījums vai ieskaitītā nauda vispār nosedz kredītu, ja nē, tad tikai kredītu samazinam un debita
+bilanci nemainam
