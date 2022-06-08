@@ -6,6 +6,6 @@ public class UserCreator {
         validator.validate(new User("Anna","Upe", 35));
         validator.validate(new User("John","Smith", 125));
         validator.validate(new User("Kristaps-Peteris","Ozols", 17));
-        validator.validate(new User("Maris","Lucavsalis", 65));
+        validator.validate(new User("Maris","Lucavsalis-Krumis", 65));
     }
 }
