@@ -7,7 +7,8 @@ import org.junit.jupiter.api.*;
 public class CalculatorTest {
 
     @Rule
-    private final Calculator victim = new Calculator();
+    private final Calculator victim = new Calculator(); // ar @Rule anotāciju šis mainīgais tiek izveidots katram testam atsevisķi un
+    // testa beigās automātiski izdzēsts
 
     @BeforeAll
     static void setUpInClass(){
