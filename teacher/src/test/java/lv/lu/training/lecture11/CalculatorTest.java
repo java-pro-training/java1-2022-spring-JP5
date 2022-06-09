@@ -6,9 +6,12 @@ import org.junit.jupiter.api.*;
 
 public class CalculatorTest {
 
-    @Rule
-    private final Calculator victim = new Calculator(); // ar @Rule anotāciju šis mainīgais tiek izveidots katram testam atsevisķi un
+    // ar @Rule anotāciju šis mainīgais tiek izveidots katram testam atsevisķi un
     // testa beigās automātiski izdzēsts
+    // Papildus materiāls https://www.baeldung.com/junit-4-rules#5-the-errorcollector-rule
+    @Rule
+    private final Calculator victim = new Calculator();
+
 
     @BeforeAll
     static void setUpInClass(){
