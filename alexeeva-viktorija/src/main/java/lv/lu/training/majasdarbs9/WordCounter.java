@@ -1,22 +1,14 @@
 package lv.lu.training.majasdarbs9;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Objects;
-import java.util.Scanner;
+import java.util.*;
 
 public class WordCounter {
     public static void main(String[] args) {
-
+        new WordCounter().run();
     }
-//
-    Map<String, Integer> wordCounts = new HashMap<>();
-//    wordCounts.put("Word1",i);
-//    wordCounts.put("Word2",i);
-//    wordCounts.put("Word3",i);
-
 
     public void run() {
+        Map<String, Integer> wordCounts = new HashMap<>();
         Scanner input = new Scanner(System.in);
         while (true) {
             System.out.println("Please enter line of words or type quit:");
@@ -31,38 +23,30 @@ public class WordCounter {
         }
 
         input.close();
-    }
 
-    private void addWord(String word, Map<String, Integer> wordCounts) {
-        Scanner newWord = new Scanner(System.in);
-        String[] wordArray = new String[5];
-        wordArray[0] = newWord.nextLine();
-        wordArray[1] = newWord.nextLine();
-        wordArray[2] = newWord.nextLine();
-        wordArray[3] = newWord.nextLine();
-        wordArray[4] = newWord.nextLine();
-
-
-        int i = 0;
-        if(wordArray[i].equals(wordArray[i+1])) {
-            i++;
-            System.out.println("Word" + wordArray[i] + "was mentioned" + i + "times");
+        for (String key : sortKeys(wordCounts)) {
+            System.out.println("[" + key + "=" + wordCounts.get(key) + "]");
         }
-
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof WordCounter)) return false;
-        WordCounter that = (WordCounter) o;
-        return Objects.equals(wordCounts, that.wordCounts);
+
+    private void addWord(String word, Map<String, Integer> wordMap) {
+        Integer count = wordMap.get(word);
+        if (count != null) {
+            count++;
+        } else {
+            count = 1;
+        }
+        wordMap.put(word, count);
     }
 
-    @Override
-    public int hashCode() {
-        return Objects.hash(wordCounts);
+    List<String> sortKeys(Map<String, Integer> map) {
+        List<String> listOfKeys = new ArrayList<>(map.keySet());
+        Collections.sort(listOfKeys);
+        return listOfKeys;
     }
+}
 
-    }
+
+
 
