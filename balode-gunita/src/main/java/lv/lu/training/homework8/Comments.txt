@@ -1,0 +1,6 @@
+MD ieskaitīts, ļoti labi.
+Saistībā ar task1 jautājumu
+// GB: Kadel seit neielasas ari dati no Car klases (color, year, manufacturer)?
+
+Atbilde: Šo mēs arī apskatījām nodarbībā - tur nepieciešams pamainīt settings un tad tiks arī paņemti
+dati no parent klases izmantojot getter metodes.

@@ -1,0 +1,6 @@
+MD knapi ieskaitīts, ir daži komentāri -
+-Pirms un pēc metodes, konstruktoriem vēlams ielikt tukšu rindiņu, lai vieglāk atšķirt, kur kas sākas un beidzas
+-Ja klasē tiek implementēta metode "equals", tad obligāti arī nepieciešams implementēt metodi "hashCode"
+-Klašu nosaukumus jāraksta ar lielo sākuma burtu - klase truck ir izveidota ar mazo.
+
+Kā arī trūkst otrā MD daļa

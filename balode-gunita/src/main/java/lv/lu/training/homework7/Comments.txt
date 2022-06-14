@@ -1,0 +1,12 @@
+MD ieskaitīts.
+Atbildot uz jautājumu
+
+//GB: Ka seit precizi koriget, lai nolasitu vairakus vardus vienlaicigi, piem., ("Level", "Kayak")? Proti, saja gadijuma man nolasa vienu vardu.
+
+Atbilde: Tad būtu nepieciešams izveidot jaunu metodi, kas pieņem nevis vienu simbolu virkni (String),
+bet gan simbolu virknes masīvu vai kolekciju (List[] vai List<String>)
+Un tad šajā metodē vajadzētu izdomāt arī loģiku - ko tieši atgriezt -
+Redzu šeit divus variantus - vai nu boolean, kas atbildētu mums uz jautājumu vai visi padotie vārdi ir palindromi
+Vai arī atgrieztu tāda paša izmēra masīvu vai kolekciju, bet ar boolean tipu (boolean[] vai List<Boolean>), kur
+tad būtu atbilde vai ir palindroms katram padotajam vārdam.
+Katrā ziņā tā vienkārši to nevar izdarīt
