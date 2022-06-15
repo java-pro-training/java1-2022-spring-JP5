@@ -18,3 +18,6 @@ Pašlaik mainīgie
     private static final int MAX_AGE = 120;
 
 Atrodas pēc metodes
+
+
+Viktorija: pielāboju, bet nestrādā līzd galām pareizi. kaut kur kļūda UserValidator klasē, jo nepareizi raksta pazīņojumu.
