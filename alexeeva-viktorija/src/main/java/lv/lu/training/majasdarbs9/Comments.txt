@@ -1,1 +1,4 @@
 Lūgums apskatīties nodarbības materiālu, kur mēs aprunājām šo MD.
+
+Viktorija: pielāboju, bet tomēr nestrādā līzd galām: neskaita daudzumu. nevaru atrast, kur kļūda.
+Es gribēju tieši to varuantu, kur vardus jāraksta konsolē.
