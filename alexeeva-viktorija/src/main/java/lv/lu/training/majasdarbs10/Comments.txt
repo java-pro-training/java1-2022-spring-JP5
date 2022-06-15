@@ -1,0 +1,24 @@
+UserCreator klasē while cikls nekad neapstājas, tur mainīgais correctInfo ir vienmēr patiess.
+Lai tiktu ārā no cikla ir nepieciešams to mainīgu uzlikt uz false, bet tas nešķiet loģiski,
+jo nosaukums liecina par ko citu.
+Es ieteiktu pirms while cikla uzlikt correctInfo = false
+un
+while ciklu uzrakstīst ar ne operatoru (!)
+
+while (!correctInfo) {
+...
+}
+
+Kā arī komentārs par UserValidator klasi - mēs no sākuma rakstam mainīgos un pēc tam metodes.
+Pašlaik mainīgie
+
+    private static final int MIN_TEXT_LENGTH = 3;
+    private static final int MAX_TEXT_LENGTH = 15;
+    private static final int MIN_AGE = 0;
+    private static final int MAX_AGE = 120;
+
+Atrodas pēc metodes
+
+
+Viktorija: pielāboju, bet nestrādā līzd galām pareizi. kaut kur kļūda UserValidator klasē, jo nepareizi raksta pazīņojumu.
+ka arī While cikls neapstājas, cik es saprotu.

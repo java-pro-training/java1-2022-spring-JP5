@@ -1,0 +1,2 @@
+Atkomentēju to, kas rakstīts OddNumberLookup klasē, bet kaut kas tur nestrādā. Piemēram var apskatīties citu kolēģu darbus,
+lai atrastu, kur pieļauta kļūda

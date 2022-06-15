@@ -49,4 +49,6 @@ public class SalariedEmployee extends Employee {
     public int hashCode() {
         return Objects.hash(super.hashCode(), getWeeklySalary());
     }
+
+    
 }
