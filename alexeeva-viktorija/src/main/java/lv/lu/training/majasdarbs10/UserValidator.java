@@ -7,6 +7,15 @@ public class UserValidator {
     private static final int MIN_AGE = 0;
     private static final int MAX_AGE = 120;
 
+    private boolean hasInvalidLength(String text) {
+        return text.length() < MIN_TEXT_LENGTH || text.length() > MAX_TEXT_LENGTH;
+    }
+
+    private boolean hasInvalidAge(int age) {
+        return age < MIN_AGE || age > MAX_AGE;
+    }
+
+
     public void validate(User user) {
         try {
             if (hasInvalidLength(user.getName()) || hasInvalidLength(user.getSurname())) {
@@ -23,16 +32,7 @@ public class UserValidator {
         } finally {
             System.out.println("User is added into system.");
         }
-
+    }
     }
 
 
-    private boolean hasInvalidLength(String text) {
-        return text.length() < MIN_TEXT_LENGTH || text.length() > MAX_TEXT_LENGTH;
-    }
-
-    private boolean hasInvalidAge(int age) {
-        return age < MIN_AGE || age > MAX_AGE;
-    }
-
-}
