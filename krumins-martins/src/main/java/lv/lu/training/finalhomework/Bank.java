@@ -146,7 +146,8 @@ public class Bank {
 
         ArrayList<Transaction> transactions = getTransactionList();
         for (Transaction transaction : transactions) {
-            if (transaction.getCreditAccountNumber().equals(accountNumber)) {
+            if (transaction.getDebitAccountNumber().equals(accountNumber) ||
+                transaction.getCreditAccountNumber().equals(accountNumber)) {
                 String pattern = "yyyy-MM-dd HH:mm:ss";
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
                 String date = simpleDateFormat.format(transaction.getDateTime());
