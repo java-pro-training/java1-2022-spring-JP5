@@ -7,8 +7,8 @@ public class UserCreator {
     public static void main(String[] args) throws ValidationException {
         UserValidator validator = new UserValidator();
         Scanner scanner = new Scanner(System.in);
-        boolean correctInfo = true;
-        while (correctInfo) {
+        boolean correctInfo = false;
+        while (!correctInfo) {
 
             System.out.println("Please enter name: ");
             String name = scanner.nextLine();
