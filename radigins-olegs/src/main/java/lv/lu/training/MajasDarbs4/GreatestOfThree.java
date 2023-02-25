@@ -3,22 +3,42 @@ package lv.lu.training.MajasDarbs4;
 import java.util.Scanner;
 
 public class GreatestOfThree {
-    public static void main(String[] args) {
+    int firstNumber;
+    int secondNumber;
+    int thirdNumber;
+    int greatestNumber;
+    Scanner scanner = new Scanner(System.in);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter number:");
-        int number1 = scanner.nextInt();
-        System.out.println("Please enter number:");
-        int number2 = scanner.nextInt();
-        System.out.println("Please enter number:");
-        int number3 = scanner.nextInt();
+    int getFirstNumber(){
+        System.out.println("Please enter first number: ");
+        firstNumber = scanner.nextInt();
+        return firstNumber;
+    }
 
-        if (number1 >= number2 && number1 >= number3) {
-            System.out.println("The greatest number is number1 -  " + number1);
-        } else if (number2 >= number1 && number2 >= number3) {
-            System.out.println("The greatest number is number2 - " + number2);
+    int getSecondNumber() {
+        System.out.println("Please enter second number: ");
+        secondNumber = scanner.nextInt();
+        return secondNumber;
+    }
+
+    int getThirdNumber() {
+        System.out.println("Please enter third number: ");
+        thirdNumber = scanner.nextInt();
+        return thirdNumber;
+    }
+
+
+
+    public int getGreatestNumber() {
+        if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
+            System.out.println("The greatest number is number1 -  " + firstNumber);
+            return firstNumber;
+        } else if (secondNumber>= firstNumber && secondNumber >= thirdNumber) {
+            System.out.println("The greatest number is number2 - " + secondNumber);
+            return secondNumber;
         } else {
-            System.out.println("The greatest number is number3 - " + number3);
+            System.out.println("The greatest number is number3 - " + thirdNumber);
+            return thirdNumber;
         }
 
     }
